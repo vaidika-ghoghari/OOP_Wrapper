@@ -314,7 +314,7 @@ The project can be extended in the future by adding:
 
 I have also made an explanation video where I explain how this project works and the Python concepts used in it.
 
-👉 **Watch the Project Explanation Video :** https://drive.google.com/file/d/1Q5fJyBy1k6c1jgumEhYumcfa1TXRCu_0/view?usp=sharing
+👉 **Watch the Project Explanation Video :** (https://drive.google.com/file/d/1Nx-D6Zs60MA53vqXK_7faDkAQudvNts5/view?usp=sharing)
 
 
 ##  📫 Connect With Me
