@@ -8,7 +8,7 @@ class Employee:
         self.age =age
         self.__salary = salary
 
-    
+    #getter and setter method for salary
     def set_salary(self,salary):
         if salary >= 0:
             self.__salary = salary
@@ -18,7 +18,7 @@ class Employee:
     def get_salary(self):
             return self.__salary
     
-
+    #getter and setter method for employee id
     def set_emp_id(self,emp_id):
             self.emp_id = emp_id
 
@@ -26,7 +26,6 @@ class Employee:
         return self.emp_id
 
     
-
     def display(self):
         print(f"\nName: {self.name}")
         print(f"Age: {self.age}")
@@ -98,7 +97,8 @@ while True:
         department = input("Enter Department: ")
         
         manager = Manager(name, age, emp_id, salary, department)
-        
+
+        #check whether a Manager class is subclass of employee
         if issubclass(type(manager), Employee):
             employees.append(manager)
         
@@ -115,8 +115,9 @@ while True:
         programming_language = input("Enter Programming Language: ")
         
         developer = Developer(name, age, emp_id, salary, programming_language)
-        
-        if issubclass(type(manager), Employee):
+
+        #check whether a Devloper class is subclass of employee
+        if issubclass(type(developer), Employee):
             employees.append(developer)
         
         print(f"\nDeveloper created with name: {developer.name} , ID: {developer.emp_id} , Age: {developer.age} , Salary: {developer.get_salary()} , Programming Language: {developer.programming_language}")
